@@ -1,0 +1,22 @@
+.movePage {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+}
+
+.movePageName1 {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+.movePageName2 {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+.movePageName1 {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+}
