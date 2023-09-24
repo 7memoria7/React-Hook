@@ -17,6 +17,7 @@ function MovePage() {
 
   return (
     <div>
+      <h1>git! 수정해보자!</h1>
       <h1>이동한 페이지</h1>
       {/* <MyComponent /> */}
       <div className={styles.movePageName1} />
