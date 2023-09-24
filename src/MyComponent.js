@@ -1,6 +1,7 @@
 // MyComponent.js
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import styles from "MyComponent.module.css";
 
 function MyComponent() {
   const divRef = useRef(null);
@@ -24,6 +25,7 @@ function MyComponent() {
 
       <button onClick={handlePageChange}>페이지 이동</button>
       <div ref={divRef}>이곳에 포커스가 설정됩니다.</div>
+      <div className={styles.wrapper}>빨간 상자</div>
     </div>
   );
 }
